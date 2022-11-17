@@ -135,6 +135,3 @@ class EnemyUnit(BaseUnit):
             return f"{self.name} используя {self.weapon.name} пробивает {target.armor.name} и наносит Вам {damage} урона."
 
         return f"{self.name} используя {self.weapon.name} наносит удар, но Ваш(а) {target.armor.name} его останавливает."
-
-
-
